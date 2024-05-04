@@ -1,0 +1,25 @@
+<NavigationMenuItem>
+              <NavigationMenuTrigger>Company</NavigationMenuTrigger>
+              <NavigationMenuContent>
+                <div className="grid w-[400px] p-2">
+                  <NavigationMenuLink asChild>
+                    <Link className="flex items-center gap-2" href="#">
+                <UsersIcon className="h-4 w-4" />
+                About Us
+              </Link>
+                  </NavigationMenuLink>
+                  <NavigationMenuLink asChild>
+                      <Link className="flex items-center gap-2" href="#">
+                <BriefcaseIcon className="h-4 w-4" />
+                Careers
+              </Link>
+                  </NavigationMenuLink>
+                  <NavigationMenuLink asChild>
+                 <Link className="flex items-center gap-2" href="#">
+                <MailIcon className="h-4 w-4" />
+                Contact
+              </Link>
+                  </NavigationMenuLink>
+                </div>
+              </NavigationMenuContent>
+            </NavigationMenuItem>
